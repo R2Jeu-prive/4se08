@@ -1,0 +1,281 @@
+total 0
+crw-------   1 root   root     10,   264 avril 20 08:28 acpi_thermal_rel
+crw-r--r--   1 root   root     10,   235 avril 20 08:28 autofs
+drwxr-xr-x   2 root   root          1100 avril 22 15:37 block
+crw-rw----   1 root   disk     10,   234 avril 20 08:33 btrfs-control
+drwxr-xr-x   3 root   root            60 avril 20 08:28 bus
+drwxr-xr-x   2 root   root          5380 avril 22 15:37 char
+crw--w----   1 root   tty       5,     1 avril 20 08:28 console
+lrwxrwxrwx   1 root   root            11 avril 20 08:28 core -> /proc/kcore
+drwxr-xr-x  18 root   root           360 avril 20 08:28 cpu
+crw-------   1 root   root     10,   260 avril 20 08:28 cpu_dma_latency
+crw-------   1 root   root     10,   203 avril 20 08:28 cuse
+drwxr-xr-x   8 root   root           160 avril 20 08:28 disk
+drwxr-xr-x   2 root   root            60 avril 20 08:28 dma_heap
+drwxr-xr-x   3 root   root           100 avril 20 08:28 dri
+crw-------   1 root   root    234,     0 avril 20 08:28 drm_dp_aux0
+crw-------   1 root   root    234,     1 avril 20 08:28 drm_dp_aux1
+crw-------   1 root   root    234,     2 avril 20 08:28 drm_dp_aux2
+crw-------   1 root   root     10,   258 avril 20 08:28 ecryptfs
+crw-rw----   1 root   video    29,     0 avril 20 08:28 fb0
+lrwxrwxrwx   1 root   root            13 avril 20 08:28 fd -> /proc/self/fd
+crw-rw-rw-   1 root   root      1,     7 avril 20 08:28 full
+crw-rw-rw-   1 root   root     10,   229 avril 20 08:28 fuse
+crw-------   1 root   root    254,     0 avril 20 08:28 gpiochip0
+crw-------   1 root   root    241,     0 avril 20 08:28 hidraw0
+crw-------   1 root   root    241,     1 avril 20 08:28 hidraw1
+crw-------   1 root   root     10,   261 avril 20 08:28 HID-SENSOR-2000e1.2.auto
+crw-------   1 root   root     10,   262 avril 20 08:28 HID-SENSOR-2000e1.3.auto
+crw-------   1 root   root     10,   263 avril 20 08:28 HID-SENSOR-2000e1.4.auto
+crw-------   1 root   root     10,   228 avril 20 08:28 hpet
+drwxr-xr-x   2 root   root             0 avril 20 08:28 hugepages
+crw-------   1 root   root     10,   183 avril 20 08:28 hwrng
+crw-------   1 root   root     89,     0 avril 20 08:28 i2c-0
+crw-------   1 root   root     89,     1 avril 20 08:28 i2c-1
+crw-------   1 root   root     89,    10 avril 20 08:28 i2c-10
+crw-------   1 root   root     89,    11 avril 20 08:28 i2c-11
+crw-------   1 root   root     89,    12 avril 20 08:28 i2c-12
+crw-------   1 root   root     89,    13 avril 20 08:28 i2c-13
+crw-------   1 root   root     89,    14 avril 20 08:28 i2c-14
+crw-------   1 root   root     89,    15 avril 20 08:28 i2c-15
+crw-------   1 root   root     89,    16 avril 20 08:28 i2c-16
+crw-------   1 root   root     89,     2 avril 20 08:28 i2c-2
+crw-------   1 root   root     89,     3 avril 20 08:28 i2c-3
+crw-------   1 root   root     89,     4 avril 20 08:28 i2c-4
+crw-------   1 root   root     89,     5 avril 20 08:28 i2c-5
+crw-------   1 root   root     89,     6 avril 20 08:28 i2c-6
+crw-------   1 root   root     89,     7 avril 20 08:28 i2c-7
+crw-------   1 root   root     89,     8 avril 20 08:28 i2c-8
+crw-------   1 root   root     89,     9 avril 20 08:28 i2c-9
+lrwxrwxrwx   1 root   root            12 avril 20 08:28 initctl -> /run/initctl
+drwxr-xr-x   3 root   root           440 avril 20 08:28 input
+crw-r--r--   1 root   root      1,    11 avril 20 08:28 kmsg
+crw-rw----+  1 root   kvm      10,   232 avril 20 08:28 kvm
+lrwxrwxrwx   1 root   root            28 avril 20 08:28 log -> /run/systemd/journal/dev-log
+brw-rw----   1 root   disk      7,     0 avril 20 08:28 loop0
+brw-rw----   1 root   disk      7,     1 avril 20 08:28 loop1
+brw-rw----   1 root   disk      7,    10 avril 20 08:28 loop10
+brw-rw----   1 root   disk      7,    11 avril 20 08:28 loop11
+brw-rw----   1 root   disk      7,    12 avril 20 08:28 loop12
+brw-rw----   1 root   disk      7,    13 avril 20 08:28 loop13
+brw-rw----   1 root   disk      7,    14 avril 20 08:28 loop14
+brw-rw----   1 root   disk      7,    15 avril 20 08:28 loop15
+brw-rw----   1 root   disk      7,    16 avril 20 08:28 loop16
+brw-rw----   1 root   disk      7,    17 avril 20 08:28 loop17
+brw-rw----   1 root   disk      7,    18 avril 20 08:28 loop18
+brw-rw----   1 root   disk      7,    19 avril 20 08:28 loop19
+brw-rw----   1 root   disk      7,     2 avril 20 08:28 loop2
+brw-rw----   1 root   disk      7,    20 avril 20 08:28 loop20
+brw-rw----   1 root   disk      7,    21 avril 20 08:28 loop21
+brw-rw----   1 root   disk      7,    22 avril 20 08:28 loop22
+brw-rw----   1 root   disk      7,    23 avril 20 08:28 loop23
+brw-rw----   1 root   disk      7,    24 avril 20 08:28 loop24
+brw-rw----   1 root   disk      7,    25 avril 20 08:28 loop25
+brw-rw----   1 root   disk      7,    26 avril 20 08:28 loop26
+brw-rw----   1 root   disk      7,    27 avril 20 08:28 loop27
+brw-rw----   1 root   disk      7,    28 avril 20 08:28 loop28
+brw-rw----   1 root   disk      7,    29 avril 20 08:28 loop29
+brw-rw----   1 root   disk      7,     3 avril 20 08:28 loop3
+brw-rw----   1 root   disk      7,    30 avril 20 08:28 loop30
+brw-rw----   1 root   disk      7,    31 avril 20 08:28 loop31
+brw-rw----   1 root   disk      7,    32 avril 20 08:28 loop32
+brw-rw----   1 root   disk      7,    33 avril 20 08:28 loop33
+brw-rw----   1 root   disk      7,    34 avril 20 08:28 loop34
+brw-rw----   1 root   disk      7,    35 avril 20 08:28 loop35
+brw-rw----   1 root   disk      7,    36 avril 20 08:28 loop36
+brw-rw----   1 root   disk      7,    37 avril 20 08:28 loop37
+brw-rw----   1 root   disk      7,    38 avril 20 08:28 loop38
+brw-rw----   1 root   disk      7,    39 avril 20 08:28 loop39
+brw-rw----   1 root   disk      7,     4 avril 20 08:28 loop4
+brw-rw----   1 root   disk      7,    40 avril 20 08:28 loop40
+brw-rw----   1 root   disk      7,    41 avril 20 08:28 loop41
+brw-rw----   1 root   disk      7,    42 avril 20 08:28 loop42
+brw-rw----   1 root   disk      7,    43 avril 20 08:28 loop43
+brw-rw----   1 root   disk      7,    44 avril 20 08:28 loop44
+brw-rw----   1 root   disk      7,    45 avril 20 08:28 loop45
+brw-rw----   1 root   disk      7,    46 avril 20 08:28 loop46
+brw-rw----   1 root   disk      7,     5 avril 20 08:28 loop5
+brw-rw----   1 root   disk      7,     6 avril 20 08:28 loop6
+brw-rw----   1 root   disk      7,     7 avril 20 08:28 loop7
+brw-rw----   1 root   disk      7,     8 avril 20 08:28 loop8
+brw-rw----   1 root   disk      7,     9 avril 20 08:28 loop9
+crw-rw----   1 root   disk     10,   237 avril 20 08:28 loop-control
+drwxr-xr-x   2 root   root            60 avril 20 08:28 mapper
+crw-------   1 root   root     10,   227 avril 20 08:28 mcelog
+crw-rw----+  1 root   video   238,     0 avril 20 08:28 media0
+crw-rw----+  1 root   video   238,     1 avril 20 08:28 media1
+crw-------   1 root   root    237,     0 avril 20 08:28 mei0
+crw-r-----   1 root   kmem      1,     1 avril 20 08:28 mem
+drwxrwxrwt   2 root   root            40 avril 20 08:28 mqueue
+crw-------   1 root   root     90,     0 avril 20 08:28 mtd0
+crw-------   1 root   root     90,     1 avril 20 08:28 mtd0ro
+crw-------   1 root   root     90,     2 avril 20 08:28 mtd1
+crw-------   1 root   root     90,     3 avril 20 08:28 mtd1ro
+drwxr-xr-x   2 root   root            60 avril 20 08:28 net
+crw-------   1 root   root    239,     0 avril 20 08:28 ng0n1
+crw-rw-rw-   1 root   root      1,     3 avril 20 08:28 null
+crw-------   1 root   root    240,     0 avril 22 15:22 nvme0
+brw-rw----   1 root   disk    259,     0 avril 20 08:28 nvme0n1
+brw-rw----   1 root   disk    259,     1 avril 20 08:28 nvme0n1p1
+brw-rw----   1 root   disk    259,     2 avril 20 08:28 nvme0n1p2
+brw-rw----   1 root   disk    259,     3 avril 20 08:28 nvme0n1p3
+brw-rw----   1 root   disk    259,     4 avril 20 08:28 nvme0n1p4
+brw-rw----   1 root   disk    259,     5 avril 20 08:28 nvme0n1p5
+crw-------   1 root   root     10,   144 avril 20 08:28 nvram
+crw-r-----   1 root   kmem      1,     4 avril 20 08:28 port
+crw-------   1 root   root    108,     0 avril 20 08:28 ppp
+crw-------   1 root   root     10,     1 avril 20 08:28 psaux
+crw-rw-rw-   1 root   tty       5,     2 avril 22 15:43 ptmx
+crw-------   1 root   root    246,     0 avril 20 08:28 ptp0
+drwxr-xr-x   2 root   root             0 avril 20 08:28 pts
+crw-rw-rw-   1 root   root      1,     8 avril 20 08:28 random
+crw-rw-r--+  1 root   root     10,   242 avril 20 08:28 rfkill
+lrwxrwxrwx   1 root   root             4 avril 20 08:28 rtc -> rtc0
+crw-------   1 root   root    248,     0 avril 20 08:28 rtc0
+drwxr-xr-x   4 root   root            80 avril 22 15:37 serial
+drwxrwxrwt   2 root   root            60 avril 22 15:43 shm
+crw-------   1 root   root     10,   231 avril 20 08:28 snapshot
+drwxr-xr-x   3 root   root           280 avril 20 08:28 snd
+lrwxrwxrwx   1 root   root            15 avril 20 08:28 stderr -> /proc/self/fd/2
+lrwxrwxrwx   1 root   root            15 avril 20 08:28 stdin -> /proc/self/fd/0
+lrwxrwxrwx   1 root   root            15 avril 20 08:28 stdout -> /proc/self/fd/1
+crw-rw----   1 tss    root     10,   224 avril 20 08:28 tpm0
+crw-rw----   1 tss    tss     253, 65536 avril 20 08:28 tpmrm0
+crw-rw-rw-   1 root   tty       5,     0 avril 20 16:06 tty
+crw--w----   1 root   tty       4,     0 avril 20 08:28 tty0
+crw--w----   1 root   tty       4,     1 avril 20 08:28 tty1
+crw--w----   1 root   tty       4,    10 avril 20 08:28 tty10
+crw--w----   1 root   tty       4,    11 avril 20 08:28 tty11
+crw--w----   1 root   tty       4,    12 avril 20 08:28 tty12
+crw--w----   1 root   tty       4,    13 avril 20 08:28 tty13
+crw--w----   1 root   tty       4,    14 avril 20 08:28 tty14
+crw--w----   1 root   tty       4,    15 avril 20 08:28 tty15
+crw--w----   1 root   tty       4,    16 avril 20 08:28 tty16
+crw--w----   1 root   tty       4,    17 avril 20 08:28 tty17
+crw--w----   1 root   tty       4,    18 avril 20 08:28 tty18
+crw--w----   1 root   tty       4,    19 avril 20 08:28 tty19
+crw--w----   1 pierre tty       4,     2 avril 20 08:28 tty2
+crw--w----   1 root   tty       4,    20 avril 20 08:28 tty20
+crw--w----   1 root   tty       4,    21 avril 20 08:28 tty21
+crw--w----   1 root   tty       4,    22 avril 20 08:28 tty22
+crw--w----   1 root   tty       4,    23 avril 20 08:28 tty23
+crw--w----   1 root   tty       4,    24 avril 20 08:28 tty24
+crw--w----   1 root   tty       4,    25 avril 20 08:28 tty25
+crw--w----   1 root   tty       4,    26 avril 20 08:28 tty26
+crw--w----   1 root   tty       4,    27 avril 20 08:28 tty27
+crw--w----   1 root   tty       4,    28 avril 20 08:28 tty28
+crw--w----   1 root   tty       4,    29 avril 20 08:28 tty29
+crw--w----   1 root   tty       4,     3 avril 20 08:28 tty3
+crw--w----   1 root   tty       4,    30 avril 20 08:28 tty30
+crw--w----   1 root   tty       4,    31 avril 20 08:28 tty31
+crw--w----   1 root   tty       4,    32 avril 20 08:28 tty32
+crw--w----   1 root   tty       4,    33 avril 20 08:28 tty33
+crw--w----   1 root   tty       4,    34 avril 20 08:28 tty34
+crw--w----   1 root   tty       4,    35 avril 20 08:28 tty35
+crw--w----   1 root   tty       4,    36 avril 20 08:28 tty36
+crw--w----   1 root   tty       4,    37 avril 20 08:28 tty37
+crw--w----   1 root   tty       4,    38 avril 20 08:28 tty38
+crw--w----   1 root   tty       4,    39 avril 20 08:28 tty39
+crw--w----   1 root   tty       4,     4 avril 20 08:28 tty4
+crw--w----   1 root   tty       4,    40 avril 20 08:28 tty40
+crw--w----   1 root   tty       4,    41 avril 20 08:28 tty41
+crw--w----   1 root   tty       4,    42 avril 20 08:28 tty42
+crw--w----   1 root   tty       4,    43 avril 20 08:28 tty43
+crw--w----   1 root   tty       4,    44 avril 20 08:28 tty44
+crw--w----   1 root   tty       4,    45 avril 20 08:28 tty45
+crw--w----   1 root   tty       4,    46 avril 20 08:28 tty46
+crw--w----   1 root   tty       4,    47 avril 20 08:28 tty47
+crw--w----   1 root   tty       4,    48 avril 20 08:28 tty48
+crw--w----   1 root   tty       4,    49 avril 20 08:28 tty49
+crw--w----   1 root   tty       4,     5 avril 20 08:28 tty5
+crw--w----   1 root   tty       4,    50 avril 20 08:28 tty50
+crw--w----   1 root   tty       4,    51 avril 20 08:28 tty51
+crw--w----   1 root   tty       4,    52 avril 20 08:28 tty52
+crw--w----   1 root   tty       4,    53 avril 20 08:28 tty53
+crw--w----   1 root   tty       4,    54 avril 20 08:28 tty54
+crw--w----   1 root   tty       4,    55 avril 20 08:28 tty55
+crw--w----   1 root   tty       4,    56 avril 20 08:28 tty56
+crw--w----   1 root   tty       4,    57 avril 20 08:28 tty57
+crw--w----   1 root   tty       4,    58 avril 20 08:28 tty58
+crw--w----   1 root   tty       4,    59 avril 20 08:28 tty59
+crw--w----   1 root   tty       4,     6 avril 20 08:28 tty6
+crw--w----   1 root   tty       4,    60 avril 20 08:28 tty60
+crw--w----   1 root   tty       4,    61 avril 20 08:28 tty61
+crw--w----   1 root   tty       4,    62 avril 20 08:28 tty62
+crw--w----   1 root   tty       4,    63 avril 20 08:28 tty63
+crw--w----   1 root   tty       4,     7 avril 20 08:28 tty7
+crw--w----   1 root   tty       4,     8 avril 20 08:28 tty8
+crw--w----   1 root   tty       4,     9 avril 20 08:28 tty9
+crw-rw----   1 root   dialout 166,     0 avril 22 15:37 ttyACM0
+crw-------   1 root   root      5,     3 avril 20 08:28 ttyprintk
+crw-rw----   1 root   dialout   4,    64 avril 20 08:28 ttyS0
+crw-rw----   1 root   dialout   4,    65 avril 20 08:28 ttyS1
+crw-rw----   1 root   dialout   4,    74 avril 20 08:28 ttyS10
+crw-rw----   1 root   dialout   4,    75 avril 20 08:28 ttyS11
+crw-rw----   1 root   dialout   4,    76 avril 20 08:28 ttyS12
+crw-rw----   1 root   dialout   4,    77 avril 20 08:28 ttyS13
+crw-rw----   1 root   dialout   4,    78 avril 20 08:28 ttyS14
+crw-rw----   1 root   dialout   4,    79 avril 20 08:28 ttyS15
+crw-rw----   1 root   dialout   4,    80 avril 20 08:28 ttyS16
+crw-rw----   1 root   dialout   4,    81 avril 20 08:28 ttyS17
+crw-rw----   1 root   dialout   4,    82 avril 20 08:28 ttyS18
+crw-rw----   1 root   dialout   4,    83 avril 20 08:28 ttyS19
+crw-rw----   1 root   dialout   4,    66 avril 20 08:28 ttyS2
+crw-rw----   1 root   dialout   4,    84 avril 20 08:28 ttyS20
+crw-rw----   1 root   dialout   4,    85 avril 20 08:28 ttyS21
+crw-rw----   1 root   dialout   4,    86 avril 20 08:28 ttyS22
+crw-rw----   1 root   dialout   4,    87 avril 20 08:28 ttyS23
+crw-rw----   1 root   dialout   4,    88 avril 20 08:28 ttyS24
+crw-rw----   1 root   dialout   4,    89 avril 20 08:28 ttyS25
+crw-rw----   1 root   dialout   4,    90 avril 20 08:28 ttyS26
+crw-rw----   1 root   dialout   4,    91 avril 20 08:28 ttyS27
+crw-rw----   1 root   dialout   4,    92 avril 20 08:28 ttyS28
+crw-rw----   1 root   dialout   4,    93 avril 20 08:28 ttyS29
+crw-rw----   1 root   dialout   4,    67 avril 20 08:28 ttyS3
+crw-rw----   1 root   dialout   4,    94 avril 20 08:28 ttyS30
+crw-rw----   1 root   dialout   4,    95 avril 20 08:28 ttyS31
+crw-rw----   1 root   dialout   4,    68 avril 20 08:28 ttyS4
+crw-rw----   1 root   dialout   4,    69 avril 20 08:28 ttyS5
+crw-rw----   1 root   dialout   4,    70 avril 20 08:28 ttyS6
+crw-rw----   1 root   dialout   4,    71 avril 20 08:28 ttyS7
+crw-rw----   1 root   dialout   4,    72 avril 20 08:28 ttyS8
+crw-rw----   1 root   dialout   4,    73 avril 20 08:28 ttyS9
+crw-rw----   1 root   kvm      10,   259 avril 20 08:28 udmabuf
+crw-------   1 root   root     10,   239 avril 20 08:28 uhid
+crw-rw----+  1 root   root     10,   223 avril 20 08:28 uinput
+crw-rw-rw-   1 root   root      1,     9 avril 20 08:28 urandom
+crw-------   1 root   root     10,   257 avril 20 08:28 userfaultfd
+crw-------   1 root   root     10,   240 avril 20 08:28 userio
+drwxr-xr-x   4 root   root            80 avril 20 08:28 v4l
+crw-rw----   1 root   tty       7,     0 avril 20 08:28 vcs
+crw-rw----   1 root   tty       7,     1 avril 20 08:28 vcs1
+crw-rw----   1 root   tty       7,     2 avril 20 08:28 vcs2
+crw-rw----   1 root   tty       7,     3 avril 20 08:28 vcs3
+crw-rw----   1 root   tty       7,     4 avril 20 08:28 vcs4
+crw-rw----   1 root   tty       7,     5 avril 20 08:28 vcs5
+crw-rw----   1 root   tty       7,     6 avril 20 08:28 vcs6
+crw-rw----   1 root   tty       7,   128 avril 20 08:28 vcsa
+crw-rw----   1 root   tty       7,   129 avril 20 08:28 vcsa1
+crw-rw----   1 root   tty       7,   130 avril 20 08:28 vcsa2
+crw-rw----   1 root   tty       7,   131 avril 20 08:28 vcsa3
+crw-rw----   1 root   tty       7,   132 avril 20 08:28 vcsa4
+crw-rw----   1 root   tty       7,   133 avril 20 08:28 vcsa5
+crw-rw----   1 root   tty       7,   134 avril 20 08:28 vcsa6
+crw-rw----   1 root   tty       7,    64 avril 20 08:28 vcsu
+crw-rw----   1 root   tty       7,    65 avril 20 08:28 vcsu1
+crw-rw----   1 root   tty       7,    66 avril 20 08:28 vcsu2
+crw-rw----   1 root   tty       7,    67 avril 20 08:28 vcsu3
+crw-rw----   1 root   tty       7,    68 avril 20 08:28 vcsu4
+crw-rw----   1 root   tty       7,    69 avril 20 08:28 vcsu5
+crw-rw----   1 root   tty       7,    70 avril 20 08:28 vcsu6
+drwxr-xr-x   2 root   root            60 avril 20 08:28 vfio
+crw-------   1 root   root     10,   256 avril 20 08:28 vga_arbiter
+crw-------   1 root   root     10,   137 avril 20 08:28 vhci
+crw-rw----   1 root   kvm      10,   238 avril 20 08:28 vhost-net
+crw-rw----   1 root   kvm      10,   241 avril 20 08:28 vhost-vsock
+crw-rw----+  1 root   video    81,     0 avril 20 08:28 video0
+crw-rw----+  1 root   video    81,     1 avril 20 08:28 video1
+crw-rw----+  1 root   video    81,     2 avril 20 08:28 video2
+crw-rw----+  1 root   video    81,     3 avril 20 08:28 video3
+crw-rw-rw-   1 root   root      1,     5 avril 20 08:28 zero
+crw-------   1 root   root     10,   249 avril 20 08:28 zfs
