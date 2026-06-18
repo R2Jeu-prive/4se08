@@ -1,25 +1,57 @@
+from machine import Pin,SPI,PWM,Timer, Pin, ADC
+from ST7735 import LCD_0inch96
+import framebuf
 import time
 
-from machine import ADC, Pin, Timer
+#color is BGR
+RED = 0x00F8
+GREEN = 0xE007
+BLUE = 0x1F00
+WHITE = 0xFFFF
+BLACK = 0x0000
 
 SAMPLE_RATE_HZ = 100
 SAMPLE_PERIOD_MS = 1000 // SAMPLE_RATE_HZ
-BUFFER_PERIOD_MS = 4000
+BUFFER_PERIOD_MS = 2000
 BUFFER_SAMPLE_COUNT = BUFFER_PERIOD_MS // SAMPLE_PERIOD_MS
 
 VARIANCE_WINDOW_SIZE = 5
-VARIANCE_TRIGGER_THRESHOLD = 10
+VARIANCE_TRIGGER_THRESHOLD = 1
 
-led = Pin(25, Pin.OUT)
 adc = ADC(Pin(26, mode=Pin.IN))
 
 raw_buffer = [0] * BUFFER_SAMPLE_COUNT
 bpm_buffer = [0.0] * VARIANCE_WINDOW_SIZE
 time_buffer = [time.ticks_us()] * VARIANCE_WINDOW_SIZE
 
+screen_scan_progress = 0
 
 def adc_handler(_):
+    global lcd, screen_scan_progress
     raw_buffer.append(adc.read_u16())
+
+    min_pixel = 52
+    max_pixel = 76
+    min_adc = 35_000
+    max_adc = 45_000
+
+    previous_t = (raw_buffer[-1-12] - min_adc) / (max_adc - min_adc)
+    previous_t = max(0.0, min(1.0, previous_t))
+    previous_pixel_value = int(min_pixel + (1-previous_t) * (max_pixel - min_pixel))
+    t = (raw_buffer[-1] - min_adc) / (max_adc - min_adc)
+    t = max(0.0, min(1.0, t))
+    pixel_value = int(min_pixel + (1-t) * (max_pixel - min_pixel))
+    
+    screen_scan_progress += 1
+    if screen_scan_progress % 12 == 0:
+        lcd.line((screen_scan_progress // 3) - 4, previous_pixel_value, screen_scan_progress // 3, pixel_value, RED)
+        lcd.display()
+    
+    if screen_scan_progress >= 3 * 160:
+        screen_scan_progress = 0
+        lcd.rect(0, 48, 160, 32, BLACK, True)
+        lcd.display()
+
     raw_buffer.pop(0)
     # print(adc.read_u16())
 
@@ -97,13 +129,23 @@ def compute_handler(_):
     else:
         triggered = max(0, triggered - 1)
 
+    lcd.rect(0, 13, 160, 32, BLACK, True)
+    if bpm_buffer[-1] < 10:
+        lcd.large_text(str(int(bpm_buffer[-1])), 64, 16, 4, GREEN)
+    elif bpm_buffer[-1] < 100:
+        lcd.large_text(str(int(bpm_buffer[-1])), 48, 16, 4, GREEN)
+    else:
+        lcd.large_text(str(int(bpm_buffer[-1])), 32, 16, 4, GREEN)
+    lcd.display()
     print(f"BPM: {bpm_buffer[-1]} ({var:.2f})")
 
 
 if __name__ == "__main__":
+    print("Starting BPM detection...")
+    lcd = LCD_0inch96()   #Initializing the screen
+    lcd.fill(BLACK)       #clearing any exsiting diplay
     adc_timer = Timer(
         mode=Timer.PERIODIC, period=SAMPLE_PERIOD_MS, callback=adc_handler
     )
-
     while True:
-        compute_handler(None)
+        compute_handler(lcd)
